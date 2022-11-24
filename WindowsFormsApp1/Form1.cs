@@ -18,12 +18,12 @@ namespace WindowsFormsApp1
         public Form1()
         {
             InitializeComponent();
-            
+
         }
 
         private void открытьФайлToolStripMenuItem_Click(object sender, EventArgs e)
         {
-           
+            texbot = 12;
         }
 
         private void Add_Point_Click(object sender, EventArgs e)

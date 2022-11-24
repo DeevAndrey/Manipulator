@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.textBoxX = new System.Windows.Forms.TextBox();
             this.textBoxY = new System.Windows.Forms.TextBox();
             this.textBoxZ = new System.Windows.Forms.TextBox();
@@ -47,6 +48,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.Add_Point = new System.Windows.Forms.Button();
             this.Go_to_point = new System.Windows.Forms.Button();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -211,6 +213,11 @@
             this.Go_to_point.UseVisualStyleBackColor = true;
             this.Go_to_point.Click += new System.EventHandler(this.Go_to_point_Click);
             // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -258,6 +265,7 @@
         private System.Windows.Forms.Button Add_Point;
         private System.Windows.Forms.Button Go_to_point;
         private System.Windows.Forms.ToolStripMenuItem выполнитьToolStripMenuItem;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
     }
 }
 
