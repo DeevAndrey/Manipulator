@@ -16,5 +16,15 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
+
+        private void trackBar1_Scroll(object sender, EventArgs e)
+        {
+            textBoxX.Text = Convert.ToString(trackBar1.Value);
+        }
+
+        private void trackBar2_Scroll(object sender, EventArgs e)
+        {
+            textBoxY.Text = trackBar2.Value.ToString();
+        }
     }
 }
